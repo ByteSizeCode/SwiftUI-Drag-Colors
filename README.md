@@ -5,4 +5,4 @@ This is a simple demonstration of dragging and dropping colors to set the backgr
 <img src="Demo.gif" width="400" alt="drawing"/>
 
 Usage:
-Drag to + click on cell after drop to keep color, no click will not keep.
+Drag to cell, then click cell after drop to keep the color there. No click will not keep.
