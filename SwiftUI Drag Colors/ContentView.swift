@@ -9,13 +9,11 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var permanentColoring: [Color] = [.clear,.clear,.clear,.clear,.clear,.clear,.clear,.clear,.clear,.clear]
-    @State var lastColorDragged:colorsDragged = .none
     var body: some View {
         HStack {
-            ColorSource(color: .purple, color2: .orange, permanentColoring: self.$permanentColoring, lastColorDragged: self.lastColorDragged)
+            ColorSource(color: .purple, color2: .orange, lastColorDragged: .none)
             Spacer()
-            ColorSource(color: .blue, color2: .pink, permanentColoring: self.$permanentColoring, lastColorDragged: self.lastColorDragged)
+            ColorSource(color: .blue, color2: .pink, lastColorDragged: .none)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
@@ -87,8 +85,8 @@ struct ColorSource: View {
     @State var color2:Color
     @State var draggingFirstColor:Bool = false
     @State var draggingSecondColor:Bool = false
-    @Binding var permanentColoring:[Color]
     @State var lastColorDragged:colorsDragged
+    @State var permanentColoring: [Color] = [.clear,.clear,.clear,.clear,.clear,.clear,.clear,.clear,.clear,.clear]
 
     var body: some View {
         VStack {
