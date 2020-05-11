@@ -39,7 +39,7 @@
 		6AF9C4292467F28D005AE4EB = {
 			isa = PBXGroup;
 			children = (
-				6AF9C4342467F28D005AE4EB /* SwiftUI Color Drop */,
+				6AF9C4342467F28D005AE4EB /* SwiftUI Drag Colors */,
 				6AF9C4332467F28D005AE4EB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,7 +52,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6AF9C4342467F28D005AE4EB /* SwiftUI Color Drop */ = {
+		6AF9C4342467F28D005AE4EB /* SwiftUI Drag Colors */ = {
 			isa = PBXGroup;
 			children = (
 				6AF9C4352467F28D005AE4EB /* AppDelegate.swift */,
@@ -63,7 +63,7 @@
 				6AF9C4422467F291005AE4EB /* SwiftUI Color Drop.entitlements */,
 				6AF9C43B2467F291005AE4EB /* Preview Content */,
 			);
-			path = "SwiftUI Color Drop";
+			path = "SwiftUI Drag Colors";
 			sourceTree = "<group>";
 		};
 		6AF9C43B2467F291005AE4EB /* Preview Content */ = {
@@ -109,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6AF9C42D2467F28D005AE4EB /* Build configuration list for PBXProject "SwiftUI Drag To Set Background-Color" */;
+			buildConfigurationList = 6AF9C42D2467F28D005AE4EB /* Build configuration list for PBXProject "SwiftUI Drag Colors" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -284,15 +284,15 @@
 				CODE_SIGN_ENTITLEMENTS = "\"SwiftUI Color Drop\"\"/delete_3.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Color Drop\"/\"Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Drag Colors\"/\"Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SwiftUI Color Drop/Info.plist";
+				INFOPLIST_FILE = "SwiftUI Drag Colors/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.IsaacRaval.SwiftUIColorDrop;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IsaacRaval.SwiftUIDragColors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -305,15 +305,15 @@
 				CODE_SIGN_ENTITLEMENTS = "\"SwiftUI Color Drop\"\"/delete_3.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Color Drop\"/\"Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Drag Colors\"/\"Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SwiftUI Color Drop/Info.plist";
+				INFOPLIST_FILE = "SwiftUI Drag Colors/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.IsaacRaval.SwiftUIColorDrop;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IsaacRaval.SwiftUIDragColors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6AF9C42D2467F28D005AE4EB /* Build configuration list for PBXProject "SwiftUI Drag To Set Background-Color" */ = {
+		6AF9C42D2467F28D005AE4EB /* Build configuration list for PBXProject "SwiftUI Drag Colors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6AF9C4432467F291005AE4EB /* Debug */,

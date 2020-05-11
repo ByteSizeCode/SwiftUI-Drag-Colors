@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  SwiftUI Color Drop
+//  SwiftUI Drag Colors
 //
 //  Created by Isaac Raval on 5/10/20.
 //  Copyright © 2020 Isaac Raval. All rights reserved.

@@ -17,7 +17,7 @@
                BlueprintIdentifier = "6AF9C4312467F28D005AE4EB"
                BuildableName = "SwiftUI Color Drop.app"
                BlueprintName = "SwiftUI Color Drop"
-               ReferencedContainer = "container:SwiftUI Drag To Set Background-Color.xcodeproj">
+               ReferencedContainer = "container:SwiftUI Drag Colors.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,7 +47,7 @@
             BlueprintIdentifier = "6AF9C4312467F28D005AE4EB"
             BuildableName = "SwiftUI Color Drop.app"
             BlueprintName = "SwiftUI Color Drop"
-            ReferencedContainer = "container:SwiftUI Drag To Set Background-Color.xcodeproj">
+            ReferencedContainer = "container:SwiftUI Drag Colors.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -64,7 +64,7 @@
             BlueprintIdentifier = "6AF9C4312467F28D005AE4EB"
             BuildableName = "SwiftUI Color Drop.app"
             BlueprintName = "SwiftUI Color Drop"
-            ReferencedContainer = "container:SwiftUI Drag To Set Background-Color.xcodeproj">
+            ReferencedContainer = "container:SwiftUI Drag Colors.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
