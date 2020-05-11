@@ -231,9 +231,7 @@ struct ColorSource: View {
             Divider()
             DestinationView(active: $active, label: "Drag A Color Here", id: 1, colors: self.colors, permanentColoring: self.$permanentColoring, lastColorDragged: self.$lastColorDragged)
             DestinationView(active: $active, label: "Drag A Color Here", id: 2, colors: self.colors, permanentColoring: self.$permanentColoring, lastColorDragged: self.$lastColorDragged)
-
             DestinationView(active: $active, label: "Drag A Color Here", id: 3, colors: self.colors, permanentColoring: self.$permanentColoring, lastColorDragged: self.$lastColorDragged)
-
             DestinationView(active: $active, label: "Drag A Color Here", id: 4, colors: self.colors, permanentColoring: self.$permanentColoring, lastColorDragged: self.$lastColorDragged)
 
         }.onPreferenceChange(DestinationDataKey.self) { preferences in
